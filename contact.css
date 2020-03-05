@@ -1,0 +1,126 @@
+.contact{
+    background-color:#00AAA0;
+    width:100vw;
+    height:fit-content;
+    position: relative;
+    padding-bottom:10vh;
+  
+}
+.cfd{
+    display: flex;
+    flex-direction: row;
+}
+.myi{
+    margin-left:10vw;
+    width:30vw;
+
+}
+.mypic1{
+    width:28vw;
+    height:auto;
+    text-align: center;
+    
+}
+.cont{
+    margin-right:10vw;
+    margin-left:10vw;
+    width:40vw;
+    text-align: center;
+}
+.n{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FCF4D9;
+    font-family: sans-serif;
+}
+.f{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FCF4D9;
+    font-family: sans-serif;
+
+}
+.e{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #FCF4D9;
+    font-family: sans-serif;
+}
+.i{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin:15px;
+}
+.p{
+    margin-top: 50px;;
+}
+@media screen and (max-width:600px){
+    .cfd{
+        flex-direction: column;
+    }
+    .myi{
+        margin-left:10vw;
+        width:80vw;
+        margin-right:10vw;
+    
+    }
+    .mypic1{
+        width:60vw;
+        padding-left:10vw;
+        margin-bottom:30px;
+        height:auto;
+        text-align: center;
+        border-radius:50px;
+        
+    }
+    .cont{
+        margin-right:10vw;
+        margin-left:10vw;
+        width:80vw;
+        text-align: center;
+    }
+    .n{
+        font-size: 40px;
+        font-weight: bolder;
+        color: #FCF4D9;
+        font-family: sans-serif;
+    }
+    .f{
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #FCF4D9;
+        font-family: sans-serif;
+    
+    }
+    .e{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bolder;
+        color: #FCF4D9;
+        font-family: sans-serif;
+    }
+    .i{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        margin:5px;
+    }
+    .p{
+        margin-top: 50px;;
+    }
+    
+}
+.copy{
+    width:100vw;
+    padding-bottom: 20px;
+    padding-top:20px;
+    text-align:center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    background-color: palegreen;
+}

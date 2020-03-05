@@ -1,0 +1,84 @@
+.home{
+    background-color:palegreen;
+    width:100vw;
+    position: relative;
+   height: fit-content;
+   padding-bottom:10vh;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.class1{
+    width: 15vw;
+    margin-left: 42.5vw;
+    margin-right: 42.5vw;
+   padding-top:20vh;
+}
+.mypic{
+    border-radius: 50px;
+    width:15vw;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+#myh{
+
+  text-align: center;
+  font-size: 40px;;
+  color: gray;
+  font-weight: bolder;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+    
+    
+}
+#myh1{
+
+    text-align: center;
+    font-size: 30px;;
+    color: gray;
+    font-weight: bolder;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  
+      
+      
+  }
+  @media screen and (min-width:601px) and (max-width:1000px){
+    .class1{
+        width: 25vw;
+        margin-left: 37.5vw;
+        margin-right: 37.5vw;
+        padding-top: 20vh;;
+    }
+    .mypic{
+        border-radius: 50px;
+        width:25vw;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        
+        
+    }
+
+  }
+  @media screen and (max-width:600px){
+    .class1{
+        width: 40vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        padding-top: 20vh;;
+    }
+    .mypic{
+        border-radius: 50px;
+        width:40vw;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        
+        
+    }
+
+  }
